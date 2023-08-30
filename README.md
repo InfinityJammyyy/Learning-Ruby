@@ -1,2 +1,3 @@
 # Learning-Ruby
-# press a
+# Press A or else
+# A jamm filled production 
