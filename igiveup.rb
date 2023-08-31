@@ -39,7 +39,7 @@ puts "Paldi also you put a hole in my roof you better"
 puts "not forget my name because your paying for it"
 puts "your eyes dart around this old dusty house of his"
 puts "you are on a hay bale above you is a hay roof"
-puts "you step off the bed to a dirt floor.
+puts "you step off the bed to a dirt floor."
 puts "You slowly trot around for a bit until you"
 puts "realize you don't want to write this entire"
 puts "choose your own adventure thing I am done"
