@@ -1,0 +1,36 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0//EN" "http://www.w3.org/Math/DTD/mathml2/xhtml-math11-f.dtd">
+<html><!--This file was converted to xhtml by LibreOffice - see https://cgit.freedesktop.org/libreoffice/core/tree/filter/source/xslt for the code.--><!--Wow there scout looks like your in the source code no worrys have a look around!
+  I made this website with BlueGriffon I recomend it as its "pretty" easy to use and you can view the source whilst editing the page!--><head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</body></html>
+<div class="comment">
+<textarea id="title" type="text "rows="2" cols="4" onkeyup="Allow()" placeholder="write a comment......"></textarea>
+<input type="submit" value="Post" onclick="insert()" style="width:20px;" /></form>
+</div>
+<div id="display"></div>
+<script type="text/javascript">
+var titles = [];
+var titleInput = document.getElementById("title");
+var messageBox = document.getElementById("display");
+function Allow()
+{
+if (!user.title.value.match(/[a-zA-Z]$/) && user.title.value !="")
+{
+user.title.value="";
+alert("Please Enter only alphabets");
+}
+window.location.reload()
+}
+function insert () {
+titles.push(titleInput.value);
+clearAndShow();
+}
+function clearAndShow ()
+{
+titleInput.value = "";
+messageBox.innerHTML = "";
+messageBox.innerHTML += " " + titles.join("<br/> ") + "<br/>";
+}
+</script>
+</body></html>
